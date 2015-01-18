@@ -1,5 +1,5 @@
 ﻿// -----------------------------------------------------------------------
-//  <copyright file="Enumerable.cs" company="Ron Parker">
+//  <copyright file="ExtensionMethods.cs" company="Ron Parker">
 //   Copyright 2014, 2015 Ron Parker
 //  </copyright>
 //  <summary>
@@ -15,7 +15,7 @@ namespace RabidWarren.Collections.Generic
     /// <summary>
     /// Contains extension methods for <see cref="System.Collections.Generic.IEnumerable{TSource}"/>.
     /// </summary>
-    public static class Enumerable
+    public static class ExtensionMethods
     {
         /// <summary>
         /// Converts the source to an <see cref="Generic.Multimap{TSource, TKey, TValue}"/>.
