@@ -258,9 +258,11 @@ namespace RabidWarren.Collections.Generic
         /// </summary>
         /// <param name="key">The key.</param>
         /// <exception cref="ArgumentNullException"><paramref name="key"/> is <c>null</c>.</exception>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Potential Code Quality Issues", "CompareNonConstrainedGenericWithNullIssue",
+            Justification = "The comparison against null only happens if TKey is not a value type, but the detector misses this fact.")]
         static void VerifyKey(TKey key)
         {
-            if (key == null)
+            if (!typeof(TKey).IsValueType && key == null)
             {
                 throw new ArgumentNullException("key");
             }
