@@ -18,15 +18,15 @@ namespace RabidWarren.Collections.Generic
     public static class Enumerable
     {
         /// <summary>
-        /// Converts the source to an <see cref="RabidWarren.Collections.Generic.Multimap{TSource, TKey, TValue}"/>.
+        /// Converts the source to an <see cref="Generic.Multimap{TSource, TKey, TValue}"/>.
         /// </summary>
-        /// <returns>The <see cref="RabidWarren.Collections.Generic.Multimap{TSource, TKey, TValue}"/>.</returns>
+        /// <typeparam name="TSource">The source type.</typeparam>
+        /// <typeparam name="TKey">The key type.</typeparam>
+        /// <typeparam name="TValue">The value type.</typeparam>
         /// <param name="source">The source.</param>
         /// <param name="keySelector">The key selector.</param>
         /// <param name="valueSelector">The value selector.</param>
-        /// <typeparam name="TSource">The source type.</typeparam>
-        /// <typeparam name="TKey">The key type.</typeparam>
-        /// <typeparam name="TValue">The the value type.</typeparam>
+        /// <returns>The <see cref="Generic.Multimap{TSource, TKey, TValue}"/>.</returns>
         public static Multimap<TKey, TValue> ToMultimap<TSource, TKey, TValue>(
             this IEnumerable<TSource> source,
             Func<TSource, TKey> keySelector,
