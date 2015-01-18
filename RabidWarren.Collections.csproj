@@ -8,8 +8,8 @@
     <ProjectGuid>{EACF7D53-ED13-48FA-B920-AB2CD3258027}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RabidWarren.Collections.Generic</RootNamespace>
-    <AssemblyName>RabidWarren.Collections.Generic</AssemblyName>
+    <RootNamespace>RabidWarren.Collections</RootNamespace>
+    <AssemblyName>RabidWarren.Collections</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -39,9 +39,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enumerable.cs" />
-    <Compile Include="IMultimap.cs" />
-    <Compile Include="Multimap.cs" />
+    <Compile Include="Generic\Enumerable.cs" />
+    <Compile Include="Generic\IMultimap.cs" />
+    <Compile Include="Generic\Multimap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,9 +1,9 @@
 ﻿// -----------------------------------------------------------------------
 //  <copyright file="AssemblyInfo.cs" company="Ron Parker">
-//   Copyright 2014 Ron Parker
+//   Copyright 2014, 2015 Ron Parker
 //  </copyright>
 //  <summary>
-//   Defines the RabidWarren.Collection.Generic assembly.
+//   Defines the RabidWarren.Collection assembly.
 //  </summary>
 // -----------------------------------------------------------------------
 using System.Reflection;
@@ -12,15 +12,15 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RabidWarren.Collections.Generic")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("RabidWarren.Collections")]
+[assembly: AssemblyDescription("A collection library that contains a generic Multimap")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RabidWarren.Collections.Generic")]
-[assembly: AssemblyCopyright("Copyright ©  2014 Ron Parker")]
+[assembly: AssemblyCompany("Ron Parker")]
+[assembly: AssemblyProduct("RabidWarren.Collections")]
+[assembly: AssemblyCopyright("Copyright ©  2014, 2015 Ron Parker")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: NeutralResourcesLanguage("en")]
+[assembly: NeutralResourcesLanguage("")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,5 +32,4 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.*")]
