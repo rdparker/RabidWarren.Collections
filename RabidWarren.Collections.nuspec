@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>
+      <!-- Per http://nuget.codeplex.com/workitem/4013 the title tag is broken in the 2.8 series. The fix has
+      been pulled into the mainline and will show up in 3.0.0.  Therefore, instead of using the title tag
+      this has been hand-copied from Assembly.cs and is hardcoded here.
+      
+      Actually it appears that most of the tags are broken and I had to build the nuget CommandLine project from
+      source to get the fixes that are pending in 3.0.0.  It was at commit 86a4b0fb, when I did this. -->
+      $title$
+    </title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://raw.githubusercontent.com/rdparker/RabidWarren.Collections/master/COPYING</licenseUrl>
+    <projectUrl>https://github.com/rdparker/RabidWarren.Collections</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2014, 2015 Ron Parker &lt;rdparker@gmail.com&gt;</copyright>
+  </metadata>
+</package>
