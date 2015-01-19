@@ -203,7 +203,7 @@ namespace RabidWarren.Collections.Generic
                 throw new ArgumentOutOfRangeException("arrayIndex");
             
             var count = Count;
-            if (count > 0 && arrayIndex + count >= array.Length)
+            if (count > 0 && arrayIndex + count > array.Length)
             {
                 var message =
                     string.Format(
