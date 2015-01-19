@@ -225,7 +225,7 @@
         {
             KeyValuePair<int, string>[] array = new KeyValuePair<int, string>[1];
 
-            AddEntries(1);
+            AddEntries(2);
             map.CopyTo(array, 0);
         }
 
