@@ -88,7 +88,7 @@ namespace RabidWarren.Collections.Generic
         }
 
         /// <summary>
-        /// Removes the element with the specified key and value from the map.
+        /// Removes the first element with the specified key and value from the map.
         /// </summary>
         /// <param name="key">The key of the element to remove.</param>
         /// <param name="value">The value of the element to remove.</param>
@@ -271,7 +271,7 @@ namespace RabidWarren.Collections.Generic
         /// <summary>
         /// Represents an enumerator for the map class.
         /// </summary>
-        class Enumerator : IEnumerator<KeyValuePair<TKey, TValue>>, IDictionaryEnumerator, IEnumerator
+        internal class Enumerator : IEnumerator<KeyValuePair<TKey, TValue>>, IDictionaryEnumerator, IEnumerator
         {
             /// <summary>
             /// The backing dictionary for the collection being enumerated.
