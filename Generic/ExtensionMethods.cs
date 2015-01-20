@@ -18,7 +18,7 @@ namespace RabidWarren.Collections.Generic
     public static class ExtensionMethods
     {
         /// <summary>
-        /// Converts the source to an <see cref="Generic.Multimap{TSource, TKey, TValue}"/>.
+        /// Converts the source to an <see cref="Generic.Multimap{TKey, TValue}"/>.
         /// </summary>
         /// <typeparam name="TSource">The source type.</typeparam>
         /// <typeparam name="TKey">The key type.</typeparam>
@@ -26,7 +26,7 @@ namespace RabidWarren.Collections.Generic
         /// <param name="source">The source.</param>
         /// <param name="keySelector">The key selector.</param>
         /// <param name="valueSelector">The value selector.</param>
-        /// <returns>The <see cref="Generic.Multimap{TSource, TKey, TValue}"/>.</returns>
+        /// <returns>The <see cref="Generic.Multimap{TKey, TValue}"/>.</returns>
         public static Multimap<TKey, TValue> ToMultimap<TSource, TKey, TValue>(
             this IEnumerable<TSource> source,
             Func<TSource, TKey> keySelector,
