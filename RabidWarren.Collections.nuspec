@@ -18,8 +18,7 @@
     <projectUrl>https://github.com/rdparker/RabidWarren.Collections</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Included the package's XML documentation. Removed dependencies that are only needed at build time.</releaseNotes>
-    <dependencies></dependencies>
+    <releaseNotes>Includes the package's XML documentation. Removes development dependencies.</releaseNotes>
     <copyright>Copyright 2014, 2015 Ron Parker &lt;rdparker@gmail.com&gt;</copyright>
   </metadata>
 </package>
